@@ -1,0 +1,85 @@
+
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 23.04px 160px;
+}
+.title {
+    color: rgb(14, 14, 14);
+font-size: 30.72px;
+font-weight: 700;
+line-height: 36.48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn1 {
+    color: rgb(0, 106, 80);
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+.frame1 {
+
+    display: flex;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    justify-content: space-between;
+    margin: 23.04px 160px;
+    padding: 50px;
+    
+}
+.frame1-content {
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    position: static;
+width: 622px;
+gap: 64;
+padding: 30px 50px 30px 50px;
+margin: 0px;
+}
+.frame1 h3 {
+    color: rgba(14, 14, 14, 0.5);
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.frame1 h2 {
+    color: rgb(14, 14, 14);
+font-size: 45px;
+font-weight: 700;
+line-height: 67px;
+text-align: left;
+}
+.frame1 button {
+gap: 48;
+padding: 17px 34px 17px 34px;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-size: 15px;
+font-weight: 600;
+line-height: 22px;
+border: none;
+}
+.frame1-pic {
+    width: 474.03px;
+height: 329.21px;
+left: 157.37%;
+right: -157.37%;
+top: 20%;
+bottom: -2.3%;
+}
