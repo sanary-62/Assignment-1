@@ -627,3 +627,92 @@ text-align: left;
   .donation-submit:hover {
     background-color: #005b47;
   }
+
+  .frame8 {
+    /* Frame 2087325517 */
+position: static;
+width: 1280px;
+height: 395px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 64;
+padding: 80px 100px 80px 100px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+margin: 80px 0px;
+border-radius: 24px;
+
+background: rgb(198, 228, 214);
+  }
+  .newsletter-container {
+    background-color: #d1f0e0; /* Light green background */
+    width: 100%px; /* Width of the container */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title */
+.newsletter-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+/* Description */
+.newsletter-description {
+    font-size: 0.95em;
+    color: #555555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Form */
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Input Field */
+.newsletter-input {
+    width: 90%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #cccccc;
+    border-radius: 5px 0 0 5px; /* Rounded corners for the left side */
+    outline: none;
+}
+
+/* Button */
+.newsletter-button {
+    background-color: #007b5e;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 0 5px 5px 0; /* Rounded corners for the right side */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter-button:hover {
+    background-color: #005b47;
+}
+
+/* Footer Text */
+.newsletter-footer {
+    font-size: 0.85em;
+    color: #777777;
+    margin-top: 10px;
+}
