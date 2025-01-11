@@ -282,3 +282,83 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
 }
+.frame5 {
+    flex-direction: column;
+width: 1280px;
+height: 409px;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 20px;
+
+}
+.heading {
+    margin-left: 70px;
+}
+.table {
+    border-radius: 16px;
+
+background: rgb(255, 255, 255);
+
+/* Frame 2087325502 */
+position: static;
+width: 1280px;
+height: 409px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 32px;
+margin: 24px 0px;
+}
+thead {
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(198, 228, 214);
+
+position: static;
+width: 1216px;
+height: 45px;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 20;
+padding: 24px;
+margin: 0px 0px;
+}
+
+table {
+    margin-left: 180px;
+    border-collapse: collapse;
+    margin-right: 80px;
+}
+ td {
+    border: 1px solid black;
+    padding: 20px 210px 20px 20px;
+    text-align: left;
+    white-space: nowrap;
+ }
+ .info {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+ }
+ #decision {
+    box-sizing: border-box;
+border: 1px solid rgb(14, 14, 14);
+border-radius: 4px;
+
+background: rgb(198, 228, 214);
+color: rgb(14, 14, 14);
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+padding: 10px;
+ }
